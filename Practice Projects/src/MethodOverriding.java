@@ -12,7 +12,7 @@ class Point2d{
 		System.out.println("x = "+x+" y = "+y);
 	}
 }
-
+    
 class  Point3d extends Point2d{
 	int z;
 	Point3d(int a, int b, int c)
@@ -38,4 +38,4 @@ public class MethodOverriding {
 		Point2d x = (Point2d) p2;
 		x.display();
 	}
-}
+}    
