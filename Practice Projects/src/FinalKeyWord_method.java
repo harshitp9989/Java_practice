@@ -19,7 +19,7 @@ class Virus extends PersonalDetails
 //	{
 //		System.out.println("9999");
 //	}
-// overriding isnt possible, it results in an error. However the Virus class can still access methods of PersonalDetails
+// overriding isn't possible, it results in an error. However the Virus class can still access methods of PersonalDetails
 }
 
 public class FinalKeyWord_method {

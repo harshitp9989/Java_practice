@@ -20,7 +20,7 @@ public class MethodOverriding2 {
 	Bike b2 = new Bike();
 	b2.run();
 	
-	Bike b3 = new Splendor();
+	Bike b3 = new Splendor(); //we can write this only if Bike class has run() method defined
 	b3.run();
 	}
 	

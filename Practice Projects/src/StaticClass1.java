@@ -21,6 +21,7 @@ public class StaticClass1
 		System.out.println(Hello.kk);
 		Hello.method1();
 		method1();
+		StaticClass1.method1(); // line no 23 and 24 return the same
 
 	}
 }
